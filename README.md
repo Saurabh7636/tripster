@@ -2,6 +2,8 @@
 
 A modern, full-featured hotel booking platform built with Next.js, TypeScript, and Tailwind CSS. Tripster allows users to search, filter, and book hotel rooms with an intuitive user interface.
 
+![Tripster Homepage](./homepage-demo.png)
+
 ## Features
 
 - 🏨 **Browse Hotels** - Explore a wide selection of hotels with detailed information
