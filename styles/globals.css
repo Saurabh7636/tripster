@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+/* Swiper Custom Styles */
+.rooms-swiper {
+  padding-bottom: 2rem;
+}
+
+.swiper-pagination-rooms .swiper-pagination-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #d1d5db;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-rooms .swiper-pagination-bullet-active {
+  width: 2rem;
+  background-color: #3b82f6;
+  border-radius: 0.25rem;
+}
+
+.swiper-button-prev-rooms.swiper-button-disabled,
+.swiper-button-next-rooms.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.hotels-swiper {
+  padding-bottom: 3rem;
+  overflow: visible;
+}
+
+.swiper-pagination-hotels .swiper-pagination-bullet {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #d1d5db;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.swiper-pagination-hotels .swiper-pagination-bullet-active {
+  width: 2rem;
+  background-color: #3b82f6;
+  border-radius: 0.25rem;
+}
+
+.swiper-button-prev-hotels.swiper-button-disabled,
+.swiper-button-next-hotels.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
